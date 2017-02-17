@@ -1,0 +1,36 @@
+{
+  "name": "leaking-tools",
+  "version": "1.0.0",
+  "description": "Library to leak data",
+  "author": "Angel Muelas <angel.muelas@gmail.com>",
+  "contributors": [
+    {
+      "name": "Angel Muelas",
+      "email": "angel.muelas@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/projects/DEN/repos/denizen-lib-auth"
+  },
+  "bugs": {
+    "url": "https://repo.denizen.io/projects/DEN/repos/denizen-lib-auth"
+  },
+  "keywords": [
+    "leak",
+    "filter"
+  ],
+  "dependencies": {
+    "flat": "^2.0.1"
+  },
+  "preferGlobal": false,
+  "publishConfig": {
+    "registry": "https://npmrepo.denizen.io/"
+  },
+  "analyze": true,
+  "license": "MIT"
+}
